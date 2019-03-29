@@ -93,7 +93,7 @@ public class bidTrakerUnitTests {
     
     //test get all bids for item
     @Test
-    public void testGetAllBidForUser() {
+    public void testGetAllItemsForUser() {
         bidTracker.makeBid("jia", item1, 210);
         bidTracker.makeBid("shaz", item1, 220);
         bidTracker.makeBid("jia", item2, 421);
